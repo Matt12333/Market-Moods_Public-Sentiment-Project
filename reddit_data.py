@@ -10,9 +10,9 @@ def connect_api():
 
     try: 
         reddit = praw.Reddit(
-                client_id='OagivCTKXB8zCVcHUi64UA',
-                client_secret='mIgZVLeZYbTJjEO6nACB_7vvUaHdeA',
-                user_agent='my_reddit_app/1.0 by u/DecentEffective7691'
+                client_id='...',
+                client_secret='...',
+                user_agent='...'
             )
     
     # Confirm API Connection  
@@ -52,17 +52,8 @@ def fetch_data(ticker, start_timestamp, end_timestamp, subreddit):
     for submission in subreddit.search(ticker, sort="new", limit=1000):
         
         if start_timestamp <= submission.created_utc <= end_timestamp:
-            #time.sleep(0.5 + random.random()) ##
             print(f"Post {i}")
             submission.comments.replace_more(limit=2000)
-            ##
-            # matched_comments = []
-            # for comment in submission.comments.list():
-            #     print(f"Post: {i}, Comment: {j}")
-            #     matched_comments.append(comment.body)
-            #     j += 1 ##
-            #     time.sleep(0.25)
-            
             matched_comments = [
                  comment.body for comment in submission.comments.list()    
              ]
