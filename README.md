@@ -11,7 +11,7 @@ To determine if there is a correlation between public sentiment and the percenta
 ---
 <h2>Project Overview</h2>
 
-This is my Digital Futures Capstone Project. Having an interest in the financial markets, I had always heard that how you should never follow the crowd when trading/investing. This prompted myself to use Natural Language Processing to discover if this was accurate or not.   
+This is my Digital Futures Capstone Project. Having an interest in the financial markets, I have always heard that you should never follow the crowd when trading/investing. This prompted myself to use Natural Language Processing and APIs to discover if this was accurate or not.  
 The final outputs of the code files are the:
 - Sentiment of the week
 - % Change in Price for the Selected Week
