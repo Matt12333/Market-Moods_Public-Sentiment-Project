@@ -1,3 +1,4 @@
 /.venv
 /__pycache__
 reddit_user_info.txt
+sentiment_model.py
