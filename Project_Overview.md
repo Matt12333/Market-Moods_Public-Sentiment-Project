@@ -4,7 +4,7 @@
 To determine if there is a correlation between public sentiment and the percentage change in a given market price.  
 <br><br/>
 
-[Presentation Link](https://1drv.ms/p/c/3a77ee6445fd25c1/ESzuQc_OBoNAoU4csroxYHMBHORaFLtk8zmh6aonGtU0Gg?e=1nuYSm) - *The presentation script is within the notes of each slide.*
+[Presentation Script Link](https://docs.google.com/document/d/1wd2En0-qHanKVZDsTsk6BsxfsPdtx6z-PQqg6RfZOzA/edit?usp=sharing) - *The presentation script link, if you would like the narration of the presentation*
 
 ---
 <h2>Project Overview</h2>
