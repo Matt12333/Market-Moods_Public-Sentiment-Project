@@ -29,7 +29,7 @@ I required two types of data for this project: Public Sentiment Data and Stock M
 - bert_sentiment_model.py: Determines the sentiment of each post and returns the overall sentiment of the market, based on if there are more bullish or bearish posts
 - reddit_data.py: Fetches the reddit data of the specified market, within the specified time period
 - stock_data.py: Fetches the stock data of the specific market, within the specified time period
-- data_converter.py: Any date can be inputted into the main function, but to fetch the data from Monday to Friday of a given week, there are two functions the date is run through to return these dates and pass them to the   
+- date_converter.py: Any date can be inputted into the main function, but to fetch the data from Monday to Friday of a given week, there are two functions the date is run through to return these dates and pass them to the   
 Stock or Reddit APIs to return the data from that week
-
+---
 
